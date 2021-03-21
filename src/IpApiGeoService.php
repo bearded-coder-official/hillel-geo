@@ -10,6 +10,7 @@ class IpApiGeoService implements GeoServiceInterface
 
     public function parse($ip)
     {
+        /** @var Http $response */
         $response = Http::get('http://ip-api.com/json/' . $ip .'?fields=continentCode,countryCode');
 
         $this->data = $response->json();
