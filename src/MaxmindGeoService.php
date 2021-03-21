@@ -12,7 +12,6 @@ class MaxmindGeoService implements GeoServiceInterface
 
     public function __construct()
     {
-        /** @var Reader reader */
         $this->reader = new Reader(
             base_path() . DIRECTORY_SEPARATOR .
             'database' . DIRECTORY_SEPARATOR . 'geoip' . DIRECTORY_SEPARATOR .
