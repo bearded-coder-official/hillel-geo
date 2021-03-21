@@ -1,5 +1,5 @@
 {
-  "name": "hillel/geo",
+  "name": "hillelodessa/geo",
   "autoload": {
     "psr-4": {
       "Hillel\\Geo\\": "./src"
